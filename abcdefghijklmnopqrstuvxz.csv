@@ -1,0 +1,13 @@
+sessao,nome,preco,promocao
+Açougue,Picanha,39.90,sim
+Açougue,Contra Filé,45.90,nao
+Açougue,Costela,29.90,sim
+Mercearia,Arroz 5kg,22.50,nao
+Mercearia,Feijão 1kg,8.99,sim
+Mercearia,Óleo de Soja,7.50,nao
+Hortifrutigranjeiros,Alface,1.99,sim
+Hortifrutigranjeiros,Tomate,5.99,nao
+Hortifrutigranjeiros,Banana,4.50,sim
+Higiene e limpeza,Sabão em pó 2kg,18.90,sim
+Higiene e limpeza,Detergente,2.99,nao
+Higiene e limpeza,Água Sanitária,3.50,sim

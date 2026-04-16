@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>BellaVia - Assistente</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 20px auto; }
+    #chat-output { height: 400px; overflow: auto; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+    #chat-input { width: 80%; padding: 8px; }
+    #chat-button { padding: 8px 15px; }
+    .nome-setup { background: #f0f0f0; padding: 15px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <div id="nome-setup" class="nome-setup">
+    <b>Bem-vindo à BellaVia!</b><br>
+    Como posso te chamar? <input id="nome-input" type="text" placeholder="Seu nome">
+    <button id="nome-button">Começar</button>
+  </div>
+
+  <div id="bellavia-chat" style="display:none;">
+    <div id="chat-output"></div>
+    <input id="chat-input" type="text" placeholder="Ex: quero picanha em promoção">
+    <button id="chat-button">Enviar</button>
+  </div>
+
+  <script type="module" src="BellaVia.js"></script>
+</body>
+</html>
